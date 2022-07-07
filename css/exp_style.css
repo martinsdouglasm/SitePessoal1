@@ -31,6 +31,7 @@ h1 {
     justify-content: left;
     text-decoration: underline;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 h2 {
@@ -39,7 +40,7 @@ h2 {
     font-size: 12pt;
     font-family: 'Kdam Thmor Pro', sans-serif;
     margin: 0px;
-    text-align: left;
+    text-align: center;
 }
 
 div ul {
@@ -116,5 +117,5 @@ img {
     margin-top: 0px;
     margin-bottom: 0px;
     display: flex;
-
+    padding: 15px;
 }
