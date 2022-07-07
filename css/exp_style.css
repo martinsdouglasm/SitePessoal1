@@ -5,7 +5,6 @@ body {
     max-width: 1320px;
     
 }
-
 .video {
     position: fixed;
     top: 0px;
@@ -20,23 +19,46 @@ body {
 }
 
 h1 {
-    color: white;
-    text-shadow: #505050 3px 2px 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17pt;
+    text-shadow: #606060 2px 1px 1px;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    font-size: 19pt;
+    border: red solid;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
 }
-a {
-    color: grey;
+
+h2 {
+    color: #606060;
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border: red solid;
+    margin: 0px;
+    text-align: center;
+}
+
+div ul {
+    display: flex;
+    color: #ffffff;
+    margin: 0px;
+    font-size: 12pt;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border: red solid;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav#menu {
     display: flex;
     position: relative;
     justify-content: right;
-    min-width: 220px;
-    
+    min-width: 220px;    
 }
-
 nav#menu ul {
     list-style: none ;
     text-transform: uppercase ;
@@ -49,7 +71,6 @@ nav#menu ul {
     width: 715px;
     flex-wrap: wrap;
 }
-
 nav#menu li {
     display: inline-block;
     background-color: #161414;
@@ -73,40 +94,21 @@ nav#menu a:hover {
     color: white;
 }
 
-.saudacao{ 
-    display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: 1300px;
-    min-width: 220px;
-    margin: auto;
-}
-
-.saudacao h1 {
-    font-size: 30pt;
-    text-transform: uppercase;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    text-shadow: #dbd9d9 3px 2px 2px;
-    color: black;
-    height: min-content; 
-    text-align: center; 
-    min-width: 220px;
-}
-
-.sobre{
+div {
     border: #505050 3px solid; 
     border-radius: 5px;
     display: block;
     background-color: black;
     opacity: 90%;
     color: white;
-    text-align: center;
     font-family: 'Kdam Thmor Pro', sans-serif;
     padding: 5px;
-    max-width: 1300px;
+    max-width: 900px;
     min-width: 220px;
-    margin: auto;
-    }
+    margin: auto; 
+}
 
+img {
+    margin: 5px;
+    border: red solid;
+}
