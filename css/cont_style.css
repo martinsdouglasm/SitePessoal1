@@ -4,14 +4,14 @@ body {
     font-family: Verdana;
     max-width: 1320px; 
     display: flex;  
-    border: blue solid;
     flex-direction: column;
-    height: 100vh;
+    max-height: 750px;
+    min-height: auto;
     justify-items: auto;
+    height: 100vh;
 }
 
 body header {
-    border: blue solid;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
