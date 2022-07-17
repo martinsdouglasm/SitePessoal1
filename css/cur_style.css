@@ -5,7 +5,6 @@ body {
     font-family: Verdana;
     max-width: 1320px; 
     display: flex;  
-    border: blue solid;
     flex-direction: column;
     max-height: 750px;
     justify-items: auto;
@@ -13,18 +12,12 @@ body {
 }
 
 body header {
-    border: blue solid;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-abody {
-    background-color: #f7f7f7;
-    font-family: Verdana;
-    max-width: 1320px;   
-}
 .video {
     position: fixed;
     top: 0px;
