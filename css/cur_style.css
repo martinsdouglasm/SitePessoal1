@@ -126,6 +126,10 @@ img.logoIfsul {
     border-radius: 8px;
 }
 
+img.logoUece {
+    border-radius: 8px;
+}
+
 section {
     display: flex;
     flex-direction: row;
