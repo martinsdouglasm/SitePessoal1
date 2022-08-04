@@ -118,15 +118,7 @@ p.plataforma {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-img.logoCurso {
-    border-radius: 8px;
-}
-
-img.logoIfsul {
-    border-radius: 8px;
-}
-
-img.logoUece {
+img {
     border-radius: 8px;
 }
 
@@ -149,7 +141,7 @@ section.if {
     text-align: center;
 }
 
-section.dio {
+section.alura {
         display: flex;
         flex-direction: row;
         align-items: center;
